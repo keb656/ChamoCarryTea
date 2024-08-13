@@ -27,10 +27,7 @@ img{
     max-width: 80%;
     max-height: 50%;
 }
-
 a{
-    position: absolute;
-    top: 25%;
     transform: translateY(-100%);
     text-align: center;
 
@@ -43,7 +40,7 @@ a{
     transition: all 0.5s;
     color: #ffd992;
     text-decoration: none;
-
+    margin: 10px;
 }
 
 a:hover{
@@ -51,3 +48,14 @@ a:hover{
     border: 2px solid white;
     color: white;
 }
+/*
+.btn1{
+    position: absolute;
+    top: 25%;
+}
+
+.btn2{
+    position: absolute;
+    top: 50%;
+}
+    */

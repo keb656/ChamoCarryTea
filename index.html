@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamo-carry Tea</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="audioTest/switchStyle.css" />
+
 </head>
 <body>
     <style> @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); </style>
     <div id="main">
         <div id="content">
+            <audio id="audioContainer"> <!-- audio play를 위함 -->
+                <source id="audioSource" src="" /> <!-- audio 파일 -->
+                Your browser does not support the audio format.
+            </audio>
+            
+            <div class="wrapper">
+                <input type="checkbox" id="switch"> <!-- add checked when default on -->
+                <label for="switch" class="switch_label">
+                  <span class="onf_btn"></span>
+                </label>
+            </div>
             <header>
                 <h1> One Cup of Tea, One Love </h1>
             </header>
@@ -21,5 +34,10 @@
             <a href="emotionVideo.html"> 묵상하기 </a>
         </div>
     </div>
+    
+    
+    
+    <script src="audioTest/script.js"></script>
+
 </body>
 </html>
